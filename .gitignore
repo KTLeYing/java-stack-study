@@ -1,33 +1,26 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
+# IntelliJ project files
+.idea/**
 .idea
-*.iws
+.idea/workspace.xml
+.idea//
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out
+gen
 
 ### VS Code ###
 .vscode/
+/LOG_PATH_IS_UNDEFINED
+/.mvn/wrapper
+/*.log
+/*.log.*
+/*/*.log.*
+/.idea/
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main/**
+!/src/test/
